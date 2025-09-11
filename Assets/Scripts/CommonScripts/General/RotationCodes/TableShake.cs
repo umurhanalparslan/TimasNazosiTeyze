@@ -2,7 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 //tıkladıgımızda objenin sallanmasını saglayan kod.
 
-public class TabloSallan : MonoBehaviour
+public class TableShake : MonoBehaviour
 {
     private Quaternion orijinalRotasyon;
     private bool animasyonBitmedi = false;

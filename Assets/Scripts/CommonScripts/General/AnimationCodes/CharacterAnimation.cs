@@ -1,7 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 //Bu kod karakterlerin kol, bacak, kafa gibi uzuvlarını hareket ettirmeye yarar.
-public class KarakterAnimasyon : MonoBehaviour
+public class CharacterAnimation : MonoBehaviour
 {
     [Header("Karakter Parcalari")]
     public Transform head;

@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 556022054119563015}
   - component: {fileID: 6998620645293114014}
   m_Layer: 0
-  m_Name: Vocabulary_1
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

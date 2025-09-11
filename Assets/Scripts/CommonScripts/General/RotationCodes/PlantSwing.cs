@@ -2,7 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 
 //Bu kod objenin sallanmasini tıklamayla veya otomatik olarak yapan koddur.
-public class BitkiSalinma : MonoBehaviour
+public class PlantSwing : MonoBehaviour
 {
     public float aci = 10f;
     public float sure = 0.6f;

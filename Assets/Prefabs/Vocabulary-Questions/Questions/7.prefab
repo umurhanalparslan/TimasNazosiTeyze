@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 408600415199169148}
   - component: {fileID: 7905802562860535538}
   m_Layer: 0
-  m_Name: QuestionPrefab_1
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

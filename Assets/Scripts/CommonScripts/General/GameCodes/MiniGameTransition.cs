@@ -3,7 +3,7 @@ using DG.Tweening;
 using System.Collections.Generic;
 //Oyun paneline geçmeyi sağlayan kod.
 
-public class MiniOyunGecis : MonoBehaviour
+public class MiniGameTransition : MonoBehaviour
 {
     [Header("Genel Canvas (kapanacak olan)")]
     public GameObject genelCanvas;

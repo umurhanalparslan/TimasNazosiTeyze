@@ -3,7 +3,7 @@ using DG.Tweening;
 using System.Collections; // Required for Coroutines
 //Bulutların Loop halinde hareket etmesini sağlayan kod.
 
-public class BulutHareket : MonoBehaviour
+public class CloudMovement : MonoBehaviour
 {
     public enum MovementDirection
     {

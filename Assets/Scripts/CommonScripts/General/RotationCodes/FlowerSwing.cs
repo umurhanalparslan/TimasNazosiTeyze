@@ -3,7 +3,7 @@ using DG.Tweening;
 using System.Collections.Generic;
 //Tıkladıgımızda çiçeklerin veya dalların random sallanmasını saglayan kod.
 
-public class CicekSalinim : MonoBehaviour
+public class FlowerSwing : MonoBehaviour
 {
     [Header("Çiçek Transfor Listesi")]
     public List<Transform> cicekler = new List<Transform>();

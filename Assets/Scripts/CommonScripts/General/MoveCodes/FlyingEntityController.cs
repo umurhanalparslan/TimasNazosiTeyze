@@ -3,7 +3,7 @@ using DG.Tweening;
 using System.Collections;
 //Objeyi sahne dışına cıkmadan dolastırma kodu.
 
-public class ObjeDolastirma : MonoBehaviour
+public class FlyingEntityController : MonoBehaviour
 {
     [Header("Flight Zone & Behavior")]
     public Camera boundaryCamera;

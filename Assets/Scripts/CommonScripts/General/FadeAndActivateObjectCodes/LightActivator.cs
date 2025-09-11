@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 //Bu kod ısıgı ac-kapa yapmamızı saglayan koddur.
-public class LambaAcma : MonoBehaviour
+public class LightActivator : MonoBehaviour
 {
     [Header("Lamba isigi objesi")]
     public GameObject lampLight;

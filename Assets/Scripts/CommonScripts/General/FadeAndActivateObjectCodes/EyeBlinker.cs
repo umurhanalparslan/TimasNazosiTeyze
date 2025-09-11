@@ -2,7 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 //Gozu tek sprite seklinde aç kapa yapan kod.
 
-public class GozKirpma : MonoBehaviour
+public class EyeBlinker : MonoBehaviour
 {
     [Header("Goz SpriteRenderer")]
     public SpriteRenderer eyeSprite;

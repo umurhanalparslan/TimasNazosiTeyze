@@ -2,7 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 //Bu kod tıkladığımız objeyi atadıgımız hedef noktaya gönderen koddur.
 
-public class TiklaHareket : MonoBehaviour
+public class ClickToMove : MonoBehaviour
 {
     public Transform hedefNokta; // Gidilecek hedef pozisyon
     public float hareketSuresi = 1f;

@@ -2,7 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 using System.Collections;
 //Tutoriali üstüne attığımızda tıklamali atmadıgımız takdirde kendi ekseninde 360 derece döndüren kod. Sınırsız
-public class ObjeTurn : MonoBehaviour
+public class ClickAutoRotator : MonoBehaviour
 {
     [Header("Rotation Settings")]
     [Tooltip("The rotation to add over one full loop duration. For a full 360-degree clockwise turn on Z, use (0, 0, -360).")]
