@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0bfba02d823374844b68e2335109408b
+guid: 7713f7940e52d4eb88e642fc7f47d02b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,70 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: ntbkdi_p_1_eller_0
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 163
-        width: 85
-        height: 151
-      alignment: 9
-      pivot: {x: 0.2287953, y: 0.05836224}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a1f66b8a970348d5b621d256e2b9959
-      internalID: 1725129909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ntbkdi_p_1_eller_1
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 69
-        width: 61
-        height: 103
-      alignment: 9
-      pivot: {x: 0.3920263, y: 0.11232957}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 373a15887a07a40a8af5f03d20bc7870
-      internalID: 19096250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ntbkdi_p_1_eller_2
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 68
-        width: 78
-        height: 112
-      alignment: 9
-      pivot: {x: 0.6424944, y: 0.1030518}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a989a9c5f73d146c090f90b362d8a955
-      internalID: 1306621091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -195,10 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      ntbkdi_p_1_eller_0: 1725129909
-      ntbkdi_p_1_eller_1: 19096250
-      ntbkdi_p_1_eller_2: 1306621091
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
