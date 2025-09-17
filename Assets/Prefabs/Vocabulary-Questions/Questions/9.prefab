@@ -66,7 +66,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "H\u0131zl\u0131"
+  m_text: "Sahip oldu\u011Fu g\xFCzel \u015Feyleri hat\u0131rlad\u0131\u011F\u0131
+    ve iyi hissetti\u011Fi i\xE7in."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -153,7 +154,8 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "H\u0131zl\u0131"
+    text: "Sahip oldu\u011Fu g\xFCzel \u015Feyleri hat\u0131rlad\u0131\u011F\u0131
+      ve iyi hissetti\u011Fi i\xE7in."
 --- !u!1 &1711535005845304683
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +222,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Arkada\u015Flar\u0131 kuzuyu nas\u0131l tarif eder?"
+  m_text: "Eve d\xF6n\xFC\u015F yolunda Nazo\u015Fi Teyze'nin ruh hali neden de\u011Fi\u015Fir?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -307,7 +309,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "Arkada\u015Flar\u0131 kuzuyu nas\u0131l tarif eder?"
+    text: "Eve d\xF6n\xFC\u015F yolunda Nazo\u015Fi Teyze'nin ruh hali neden de\u011Fi\u015Fir?"
 --- !u!1 &2087979378505102169
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +611,7 @@ MonoBehaviour:
   - {fileID: 4340252842734479056}
   - {fileID: 2433409795487917432}
   - {fileID: 5933101586567853325}
-  correctAnswerIndex: 1
+  correctAnswerIndex: 2
 --- !u!1 &2733397025695937865
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,7 +678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u015Ea\u015Fk\u0131n"
+  m_text: "En sevdi\u011Fi \u015Fark\u0131y\u0131 duydu\u011Fu i\xE7in."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -763,7 +765,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "\u015Ea\u015Fk\u0131n"
+    text: "En sevdi\u011Fi \u015Fark\u0131y\u0131 duydu\u011Fu i\xE7in."
 --- !u!1 &6585667338094924715
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +953,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Merakl\u0131"
+  m_text: "Yeni bir kedi bulma konusunda \xFCmitsizli\u011Fe kap\u0131ld\u0131\u011F\u0131
+    i\xE7in."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -1038,7 +1041,8 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "Merakl\u0131"
+    text: "Yeni bir kedi bulma konusunda \xFCmitsizli\u011Fe kap\u0131ld\u0131\u011F\u0131
+      i\xE7in."
 --- !u!1 &8398993585036865565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1230,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xD6fkeli"
+  m_text: "Kedilerinin pencerede onu bekledi\u011Fini g\xF6rd\xFC\u011F\xFC i\xE7in."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -1313,7 +1317,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "\xD6fkeli"
+    text: "Kedilerinin pencerede onu bekledi\u011Fini g\xF6rd\xFC\u011F\xFC i\xE7in."
 --- !u!1 &8836284646694867506
 GameObject:
   m_ObjectHideFlags: 0

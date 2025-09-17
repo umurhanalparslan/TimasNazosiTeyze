@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "H\u0131zl\u0131"
+  m_text: Kedi, 50 tane
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -153,7 +153,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "H\u0131zl\u0131"
+    text: Kedi, 50 tane
 --- !u!1 &1711535005845304683
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +220,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Arkada\u015Flar\u0131 kuzuyu nas\u0131l tarif eder?"
+  m_text: "Nazo\u015Fi Teyze'nin en \xE7ok sevdi\u011Fi hayvan t\xFCr\xFC hangisidir
+    ve evinde onlardan ka\xE7 tane bulunmaktad\u0131r?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -307,7 +308,8 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "Arkada\u015Flar\u0131 kuzuyu nas\u0131l tarif eder?"
+    text: "Nazo\u015Fi Teyze'nin en \xE7ok sevdi\u011Fi hayvan t\xFCr\xFC hangisidir
+      ve evinde onlardan ka\xE7 tane bulunmaktad\u0131r?"
 --- !u!1 &2087979378505102169
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +611,7 @@ MonoBehaviour:
   - {fileID: 4340252842734479056}
   - {fileID: 2433409795487917432}
   - {fileID: 5933101586567853325}
-  correctAnswerIndex: 1
+  correctAnswerIndex: 2
 --- !u!1 &2733397025695937865
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,7 +678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u015Ea\u015Fk\u0131n"
+  m_text: "K\xF6pek, 65 tane"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -763,7 +765,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "\u015Ea\u015Fk\u0131n"
+    text: "K\xF6pek, 65 tane"
 --- !u!1 &6585667338094924715
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Merakl\u0131"
+  m_text: "Ku\u015F, 12 tane"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -1038,7 +1040,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "Merakl\u0131"
+    text: "Ku\u015F, 12 tane"
 --- !u!1 &8398993585036865565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xD6fkeli"
+  m_text: "\xD6rdek, 1 tane"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -1313,7 +1315,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "\xD6fkeli"
+    text: "\xD6rdek, 1 tane"
 --- !u!1 &8836284646694867506
 GameObject:
   m_ObjectHideFlags: 0

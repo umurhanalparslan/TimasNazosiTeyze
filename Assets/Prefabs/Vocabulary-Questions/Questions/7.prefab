@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "H\u0131zl\u0131"
+  m_text: "M\u0131st\u0131k'\u0131n k\u0131rtasiyesine"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -153,7 +153,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "H\u0131zl\u0131"
+    text: "M\u0131st\u0131k'\u0131n k\u0131rtasiyesine"
 --- !u!1 &1711535005845304683
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +220,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Arkada\u015Flar\u0131 kuzuyu nas\u0131l tarif eder?"
+  m_text: "Nazo\u015Fi Teyze, kedi aray\u0131\u015F\u0131 s\u0131ras\u0131nda ilanlar\u0131
+    \xE7o\u011Faltmak i\xE7in hangi esnafa gitmi\u015Ftir?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -307,7 +308,8 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "Arkada\u015Flar\u0131 kuzuyu nas\u0131l tarif eder?"
+    text: "Nazo\u015Fi Teyze, kedi aray\u0131\u015F\u0131 s\u0131ras\u0131nda ilanlar\u0131
+      \xE7o\u011Faltmak i\xE7in hangi esnafa gitmi\u015Ftir?"
 --- !u!1 &2087979378505102169
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +611,7 @@ MonoBehaviour:
   - {fileID: 4340252842734479056}
   - {fileID: 2433409795487917432}
   - {fileID: 5933101586567853325}
-  correctAnswerIndex: 1
+  correctAnswerIndex: 2
 --- !u!1 &2733397025695937865
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,7 +678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u015Ea\u015Fk\u0131n"
+  m_text: Manava
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -763,7 +765,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "\u015Ea\u015Fk\u0131n"
+    text: Manava
 --- !u!1 &6585667338094924715
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Merakl\u0131"
+  m_text: Terziye
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -1038,7 +1040,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "Merakl\u0131"
+    text: Terziye
 --- !u!1 &8398993585036865565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xD6fkeli"
+  m_text: "H\xFCmb\xFCl Ay\u015Fe'nin d\xFCkk\xE2n\u0131na"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -1313,7 +1315,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "\xD6fkeli"
+    text: "H\xFCmb\xFCl Ay\u015Fe'nin d\xFCkk\xE2n\u0131na"
 --- !u!1 &8836284646694867506
 GameObject:
   m_ObjectHideFlags: 0

@@ -41,6 +41,7 @@ namespace NazosiTeyze
         private Quaternion kafaStartRot;
         private bool isMoving = false;
         private List<Vector3> ayakStartPos = new List<Vector3>();
+        private Vector3 anahtarStartPos;
 
         void Start()
         {
@@ -55,68 +56,77 @@ namespace NazosiTeyze
 
             if (kafa != null)
                 kafaStartRot = kafa.localRotation;
+
+            if (anahtar != null)
+                anahtarStartPos = anahtar.localPosition;
         }
 
         void OnMouseDown()
         {
-            if (!Input.GetMouseButtonDown(0) || isMoving || teyzeRoot == null || targetPos == null)
-                return;
-
-            isMoving = true;
-
-            // Yurumeye basla
-            teyzeRoot.DOLocalMove(targetPos.localPosition, moveDuration).SetEase(Ease.OutSine).OnComplete(() =>
+            if (Input.GetMouseButtonDown(0))
             {
-                // Varinca tekerlekleri durdur
+                if (isMoving || teyzeRoot == null || targetPos == null)
+                    return;
+
+                isMoving = true;
+
+                // Yurumeye basla
+                teyzeRoot.DOLocalMove(targetPos.localPosition, moveDuration).SetEase(Ease.OutSine).OnComplete(() =>
+                {
+                    // Varinca tekerlekleri durdur
+                    foreach (var t in tekerlekler)
+                    {
+                        if (t != null)
+                            DOTween.Kill(t);
+                    }
+
+                    // Ayak animasyonlarini durdur
+                    foreach (var a in ayaklar)
+                    {
+                        if (a != null)
+                            DOTween.Kill(a);
+                    }
+
+                    // Kafa sallanmasi baslar
+                    StartKafaSallama();
+
+                    // Anahtar ziplamasi devam eder
+                    StartAnahtarJump();
+                });
+
+                // Ayaklar yurur
+                StartAyakYurume();
+
+                // Tekerlekler doner
                 foreach (var t in tekerlekler)
                 {
                     if (t != null)
-                        DOTween.Kill(t);
-                }
-
-                // Ayak animasyonlarini durdur
-                foreach (var a in ayaklar)
-                {
-                    if (a != null)
-                        DOTween.Kill(a);
-                }
-
-                // Kafa sallanmasi baslar
-                StartKafaSallama();
-
-                // Anahtar ziplamasi devam eder
-                StartAnahtarJump();
-            });
-
-            // Ayaklar yurur
-            StartAyakYurume();
-
-            // Tekerlekler doner
-            foreach (var t in tekerlekler)
-            {
-                if (t != null)
-                {
-                    t.DOLocalRotate(new Vector3(0f, 0f, 360f), 1f, RotateMode.FastBeyond360)
-                     .SetEase(Ease.Linear)
-                     .SetLoops(-1, LoopType.Restart);
+                    {
+                        float donusSuresi = 360f / tekerlekDonusHizi;
+                        t.DOLocalRotate(new Vector3(0f, 0f, 360f), donusSuresi, RotateMode.LocalAxisAdd)
+                         .SetEase(Ease.Linear)
+                         .SetLoops(-1, LoopType.Restart);
+                    }
                 }
             }
-        }
 
-        void StartAyakYurume()
-        {
-            for (int i = 0; i < ayaklar.Count; i++)
+            void StartAyakYurume()
             {
-                var ayak = ayaklar[i];
-                if (ayak == null) continue;
+                for (int i = 0; i < ayaklar.Count; i++)
+                {
+                    var ayak = ayaklar[i];
+                    if (ayak == null) continue;
 
-                float offset = i % 2 == 0 ? 0f : ayakStepDuration / 2f; // sag-sol ayak sirasina gore
+                    float offset = i % 2 == 0 ? 0f : ayakStepDuration / 2f; // sag-sol ayak sirasina gore
 
-                ayak.DOLocalMoveY(ayak.localPosition.y + ayakStepHeight, ayakStepDuration)
-                    .SetEase(Ease.InOutSine)
-                    .SetLoops(-1, LoopType.Yoyo)
-                    .SetDelay(offset);
+                    // Düzeltme: Ayakların başlangıç pozisyonunu referans alarak zıplama
+                    ayak.DOLocalMoveY(ayakStartPos[i].y + ayakStepHeight, ayakStepDuration)
+                        .SetEase(Ease.InOutSine)
+                        .SetLoops(-1, LoopType.Yoyo)
+                        .SetDelay(offset);
+                }
             }
+
         }
 
         void StartKafaSallama()
@@ -132,7 +142,7 @@ namespace NazosiTeyze
         {
             if (anahtar == null) return;
 
-            anahtar.DOLocalMoveY(anahtar.localPosition.y + anahtarJumpHeight, anahtarJumpDuration)
+            anahtar.DOLocalMoveY(anahtarStartPos.y + anahtarJumpHeight, anahtarJumpDuration)
                 .SetEase(Ease.InOutSine)
                 .SetLoops(-1, LoopType.Yoyo);
         }
@@ -149,7 +159,7 @@ namespace NazosiTeyze
             // ayaklar
             for (int i = 0; i < ayaklar.Count; i++)
             {
-                if (ayaklar[i] != null)
+                if (ayaklar[i] != null && ayakStartPos.Count > i)
                 {
                     DOTween.Kill(ayaklar[i]);
                     ayaklar[i].localPosition = ayakStartPos[i];
@@ -170,11 +180,10 @@ namespace NazosiTeyze
             if (anahtar != null)
             {
                 DOTween.Kill(anahtar);
-                anahtar.localPosition = new Vector3(
-                    anahtar.localPosition.x,
-                    startPos.y,
-                    anahtar.localPosition.z);
+                anahtar.localPosition = anahtarStartPos;
             }
+
+
 
             // kafa
             if (kafa != null)

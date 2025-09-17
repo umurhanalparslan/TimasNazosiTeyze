@@ -141,7 +141,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: KUZU
+  m_text: BURUK
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -228,7 +228,7 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: KUZU
+    text: BURUK
 --- !u!1 &6221982782148665710
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,8 +295,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Koyunun yavrusu. Yumu\u015Fac\u0131k t\xFCyleri olan, \u201Cmee\u201D
-    diye ses \xE7\u0131karan sevimli bir hayvan."
+  m_text: "Hem biraz \xFCzg\xFCn hem biraz mutlu olmak. Limon gibi tatl\u0131-ek\u015Fi
+    bir his."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
   m_sharedMaterial: {fileID: 5647252035718468753, guid: e8cddd60f55d54b56abf042472d80c5a, type: 2}
@@ -383,8 +383,8 @@ MonoBehaviour:
   - language: EN
     text: 
   - language: TR
-    text: "Koyunun yavrusu. Yumu\u015Fac\u0131k t\xFCyleri olan, \u201Cmee\u201D
-      diye ses \xE7\u0131karan sevimli bir hayvan."
+    text: "Hem biraz \xFCzg\xFCn hem biraz mutlu olmak. Limon gibi tatl\u0131-ek\u015Fi
+      bir his."
 --- !u!1 &6828490967732021082
 GameObject:
   m_ObjectHideFlags: 0
